@@ -1,0 +1,40 @@
+.mycourses-container{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:30px;
+}
+
+.mycourses-box{
+width:95%;
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.mycourses-box h1{
+text-align:center;
+margin-bottom:20px;
+}
+
+.mycourses-box table{
+width:100%;
+border-collapse:collapse;
+}
+
+.mycourses-box th{
+background:#667eea;
+color:white;
+padding:12px;
+}
+
+.mycourses-box td{
+padding:12px;
+text-align:center;
+border-bottom:1px solid #ddd;
+}
+
+.mycourses-box tr:hover{
+background-color:#f2f2f2;}

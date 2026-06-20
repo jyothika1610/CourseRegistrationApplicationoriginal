@@ -1,0 +1,37 @@
+.enrollmentlist-container{
+min-height:100vh;
+padding:30px;
+}
+
+.enrollmentlist-box{
+background:white;
+padding:25px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.enrollmentlist-box h1{
+text-align:center;
+margin-bottom:20px;
+}
+
+.enrollmentlist-box table{
+width:100%;
+border-collapse:collapse;
+}
+
+.enrollmentlist-box th{
+background:#667eea;
+color:white;
+padding:12px;
+}
+
+.enrollmentlist-box td{
+padding:12px;
+text-align:center;
+border-bottom:1px solid #ddd;
+}
+
+.enrollmentlist-box tr:hover
+{background-color:#f2f2f2;
+}

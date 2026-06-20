@@ -1,0 +1,56 @@
+.enrollment-container{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.enrollment-box{
+width:450px;
+background:white;
+padding:30px;
+border-radius:15px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.enrollment-box h1{
+text-align:center;
+color:#333;
+margin-bottom:25px;
+}
+
+.enrollment-box input{
+width:100%;
+padding:12px;
+margin-top:15px;
+border:1px solid #ccc;
+border-radius:8px;
+font-size:15px;
+}
+
+.enrollment-box button{
+width:100%;
+padding:12px;
+margin-top:20px;
+border:none;
+border-radius:8px;
+background:#667eea;
+color:white;
+font-size:16px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.enrollment-box button:hover
+
+.success-msg{
+color:green;
+text-align:center;
+margin-top:10px;
+}
+
+.error-msg{
+color:red;
+text-align:center;
+margin-top:10px;
+}
