@@ -30,7 +30,7 @@ async function SaveCourse() {
     try {
 
         const response = await axios.post(
-            "http://localhost:8080/courses",
+            "https://courseregistrationapplicationoriginal.onrender.com/courses",
             course
         );
 

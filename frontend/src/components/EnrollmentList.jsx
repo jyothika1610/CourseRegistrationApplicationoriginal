@@ -17,7 +17,7 @@ async function loadEnrollments() {
     try {
 
         const response = await axios.get(
-            "http://localhost:8080/enrollments"
+            "https://courseregistrationapplicationoriginal.onrender.com/enrollments"
         );
 
         setEnrollments(response.data);

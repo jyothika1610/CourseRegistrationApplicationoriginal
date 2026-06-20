@@ -26,7 +26,7 @@ async function SubmitDetails() {
     try {
 
         const response = await axios.post(
-            "http://localhost:8080/students",
+            "https://courseregistrationapplicationoriginal.onrender.com/students",
             student
         );
 

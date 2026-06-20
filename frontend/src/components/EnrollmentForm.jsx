@@ -12,7 +12,7 @@ function EnrollmentForm() {
         try {
 
             const response = await axios.post(
-                "http://localhost:8080/enrollments/register",
+                "https://courseregistrationapplicationoriginal.onrender.com/enrollments/register",
                 {
                     studentId: Number(studentId),
                     courseId: Number(courseId)

@@ -21,7 +21,7 @@ async function loadMyCourses() {
             localStorage.getItem("studentId");
 
         const response = await axios.get(
-            `http://localhost:8080/enrollments`
+            `https://courseregistrationapplicationoriginal.onrender.com/enrollments`
         );
 
         setCourses(response.data);

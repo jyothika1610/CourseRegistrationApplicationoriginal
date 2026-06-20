@@ -17,7 +17,7 @@ async function loadStudents() {
     try {
 
         const response = await axios.get(
-            "http://localhost:8080/students"
+            "https://courseregistrationapplicationoriginal.onrender.com/students"
         );
 
         setStudents(response.data);
@@ -43,7 +43,7 @@ async function deleteStudent(id) {
     try {
 
         await axios.delete(
-            `http://localhost:8080/students/${id}`
+            `https://courseregistrationapplicationoriginal.onrender.com/students/${id}`
         );
 
         alert("Student Deleted Successfully");
